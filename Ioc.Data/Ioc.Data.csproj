@@ -49,6 +49,10 @@
     <Compile Include="IDbContext.cs">
       <SubType>Code</SubType>
     </Compile>
+    <Compile Include="IocDbContext.cs" />
+    <Compile Include="IRepository.cs" />
+    <Compile Include="Mapping\UserMap.cs" />
+    <Compile Include="Mapping\UserProfileMap.cs" />
     <Compile Include="Properties\AssemblyInfo.cs" />
   </ItemGroup>
   <ItemGroup>
